@@ -1,0 +1,348 @@
+@media(min-width: 400px){
+    .footer_nav_link ul li {
+        border-right: 1px solid #C18C0B;
+        display: inline;
+    }
+
+    .shop_state_list ul li{
+        width: 50%;
+    }
+
+    .main_add_wrapper{
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .listOf_shopmall_name{
+        min-width: 20em;
+    }
+}
+
+@media(min-width: 570px){
+    .header_top_wrapper{
+        flex-direction: row;
+    }
+    
+    .header_logo{
+        width: 100%;
+    }
+    
+    .header_search {
+        width: 100%;
+        justify-content: flex-end;
+    }
+    .header_top_wrapper {
+        width: 91%;
+    }
+    .header_logo img{
+        max-width: 100%;
+    }
+
+    .footer_state_list ul li{
+        width: 33%;
+    }
+
+    .ttop_hp_list ul li{
+        width: 48%;
+    }
+
+    .shop_state_list ul li{
+        width: 33%;
+    }
+
+    .shop_map_content {
+        height: 300px;
+    }
+
+    .Alabaster_contact_wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Alabaster_store_list ul li,
+    .Alabaster_store_Outdated_list ul li{
+        width: 33.33%;
+    }
+
+
+
+    .Alabaster_store_list ul li:first-child>a,
+    .Alabaster_store_list ul li:nth-child(4n + 2)>a,
+    .Alabaster_store_list ul li:nth-child(4n + 5)>a,
+    .Alabaster_store_Outdated_list ul li:first-child>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(4n + 2)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(4n + 5)>a{
+        background: transparent;
+    }
+
+    .Alabaster_store_list ul li:nth-child(6n+2)>a,
+    .Alabaster_store_list ul li:nth-child(6n + 1)>a,
+    .Alabaster_store_list ul li:nth-child(6n+3)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(6n + 2)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(6n + 1)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(6n + 3)>a{
+        background: var(--bgColor);
+    }
+
+}
+
+@media(min-width: 768px){
+    .header_toggler{
+        display: none;
+    }
+
+    .main_header{
+        background-color: var(--mainColor);
+        display: block;
+        position: unset;
+    }
+
+    .main_header ul {
+        flex-direction: row;
+    }
+
+    .footer_link {
+        margin-left: 3.5%;
+        padding-left: 35px;
+    }
+
+    .footer_storage{
+        margin-right: 3.5%;
+    }
+    
+
+    .header_top_content {
+        padding: 0px 15px;
+    }
+
+    .header_serch_inner {
+        max-width: 350px;
+    }
+
+    .footer_alphabet{
+        grid-column: span 2;
+    }
+
+    .footer_top_wrapper{
+        padding: 0px 15px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer_state_content{
+        padding: 0px 15px;
+    }
+
+    .footer_state_list ul li{
+        display: inline-block;
+        border-right: 1px solid #4c4c4c;
+        margin-right: 7px;
+        width: auto;
+    }
+
+    .footer_state_list ul li:last-child{
+        border-right: none;
+    }
+
+    .footer_state_list ul li a{
+        padding-right: 7px;
+        padding-bottom: 0;
+    }
+
+    .footer_state_list ul{
+        display: unset;
+    }
+
+    .footer_copy_wrapper {
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .header_top_wrapper {
+        width: 100%;
+    }
+
+    .shop_state_list ul li{
+        width: 25%;
+    }
+
+    .brand_letters ul li a {
+        font-size: 1.2em;
+        border-right: 2px solid var(--navColor);
+    }
+
+    .main_heading{
+        font-size: 23px;
+    }
+
+    .breadcumbs {
+        display: block;
+    }
+
+    .shop_map_content {
+        height: 350px;
+    }
+
+    .main_add_wrapper{
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .main_add{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .Alabaster_section_wrapper{
+        flex-direction: row;
+    }
+    .short_add,
+    .Alabaster_review{
+        width: 30%;
+    }
+
+    .Alabaster_table,
+    .Alabaster_details{
+        width: calc(100% - 32%);
+    }
+
+    .Alabaster_table_inner tbody tr th {
+        min-width: 170px;
+    }
+
+    .Alabaster_about_wrapper{
+        flex-direction: row;
+    }
+    .add_section_change{
+        background-color: var(--navColor);
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .Alabaster_contact_wrapper{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .Alabaster_store_list ul li,
+    .Alabaster_store_Outdated_list ul li{
+        width: 25%;
+    }
+
+    .Alabaster_store_list ul li:nth-child(6n+2)>a,
+    .Alabaster_store_list ul li:nth-child(6n + 1)>a,
+    .Alabaster_store_list ul li:nth-child(6n+3)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(6n + 2)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(6n + 1)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(6n + 3)>a{
+        background: transparent;
+    }
+
+    .Alabaster_store_list ul li:nth-child(8n+2)>a,
+    .Alabaster_store_list ul li:nth-child(8n + 1)>a,
+    .Alabaster_store_list ul li:nth-child(8n+3)>a,
+    .Alabaster_store_list ul li:nth-child(8n+4)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(8n + 2)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(8n + 1)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(8n + 3)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(8n + 4)>a{
+        background: var(--bgColor);
+    }
+
+    .Alabaster_contact_inner{
+        padding: 15px;
+    }
+
+    .search_result_list ul li{
+        flex-direction: row;
+        align-items: center;
+    }
+
+}
+
+@media(min-width: 1024px){
+    .footer_alphabet{
+        grid-column: span 1;
+    }
+
+    .footer_top_wrapper{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .ttop_hp_list ul li{
+        width: 33%;
+    }
+
+    .brand_letters ul li a {
+        font-size: 1.5em;
+    }
+    .shop_map_content {
+        height: 450px;
+    }
+
+    .main_add_wrapper{
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+
+    .Alabaster_store_list ul li,
+    .Alabaster_store_Outdated_list ul li{
+        width: 20%;
+    }
+
+    .Alabaster_store_list ul li:nth-child(8n+2)>a,
+    .Alabaster_store_list ul li:nth-child(8n + 1)>a,
+    .Alabaster_store_list ul li:nth-child(8n+3)>a,
+    .Alabaster_store_list ul li:nth-child(8n+4)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(8n + 2)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(8n + 1)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(8n + 3)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(8n + 4)>a{
+        background:  transparent;
+    }
+
+    .Alabaster_store_list ul li:nth-child(10n+2)>a,
+    .Alabaster_store_list ul li:nth-child(10n + 1)>a,
+    .Alabaster_store_list ul li:nth-child(10n+3)>a,
+    .Alabaster_store_list ul li:nth-child(10n+4)>a,
+    .Alabaster_store_list ul li:nth-child(10n+5)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(10n + 2)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(10n + 1)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(10n + 3)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(10n + 4)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(10n + 5)>a{
+        background: var(--bgColor);
+    }
+
+}
+
+@media(min-width: 1200px){
+    .Alabaster_store_list ul li,
+    .Alabaster_store_Outdated_list ul li{
+        width: 16.16%;
+    }
+    .Alabaster_store_list ul li:nth-child(10n+2)>a,
+    .Alabaster_store_list ul li:nth-child(10n + 1)>a,
+    .Alabaster_store_list ul li:nth-child(10n+3)>a,
+    .Alabaster_store_list ul li:nth-child(10n+4)>a,
+    .Alabaster_store_list ul li:nth-child(10n+5)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(10n + 2)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(10n + 1)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(10n + 3)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(10n + 4)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(10n + 5)>a{
+        background: transparent;
+    }
+
+    .Alabaster_store_list ul li:nth-child(12n+2)>a,
+    .Alabaster_store_list ul li:nth-child(12n + 1)>a,
+    .Alabaster_store_list ul li:nth-child(12n+3)>a,
+    .Alabaster_store_list ul li:nth-child(12n+4)>a,
+    .Alabaster_store_list ul li:nth-child(12n+5)>a,
+    .Alabaster_store_list ul li:nth-child(12n+6)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(12n + 2)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(12n + 1)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(12n + 3)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(12n + 4)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(12n + 5)>a,
+    .Alabaster_store_Outdated_list ul li:nth-child(12n + 6)>a{
+        background: var(--bgColor);
+    }
+}
+
